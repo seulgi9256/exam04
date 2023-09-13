@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index.html</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="js/script.js"></script>
+
+</head>
+<body>
+
+  <!-- 헤더 영역 -->
+  <header>
+    <!-- util -->
+    <div class="util">
+      <div class="util-menu">
+        <li><a href="">로그인</a></li>
+        <li><a href="">회원가입</a></li> 
+      </div>
+    </div>
+  
+    <!-- menu -->
+    <div class="menu">
+      <div class="menu-left">
+        <a href=""><i class="fa fa-user"></i></a>
+      </div>
+  
+      <div class="menu-center">
+        <nav class="pc">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Board</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    
+     <div class="menu-right">
+       <a href=""><i class="fa fa-bars"></i></a> 
+      </div>
+    </div>
+  </header>
+
+  <!-- 섹션1 - 메인 -->
+<main class="content">
+  <section id="section1">
+    <div class="wrap">
+      <div class="slide-container">
+          <div class="slide"><img src="img/s01.jpg" alt="이미지01" title="이미지01"></div>
+          <div class="slide"><img src="img/s02.jpg" alt="이미지02" title="이미지02"></div>
+          <div class="slide"><img src="img/s03.jpg" alt="이미지03" title="이미지03"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 섹션2 - 최근 이미지 -->
+  <section id="section2">
+    <div class="container">
+        <div class="box2">
+            <div class="wrap">
+                <img src="img/s01.jpg" alt="최신 이미지01">
+                <h3>최신 이미지 01</h3>
+                <p>최신 이미지01 입니다. <br>새로운 게시물을 감상해보세요.</p>
+                <p>2023-09-13</p>
+            <div class="wrap1"><a href=""><img src="img/heart.png" alt="하트"></a></div>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="wrap">
+                <img src="img/s02.jpg" alt="최신 이미지02">
+                <h3>최신 이미지 02</h3>
+                <p>최신 이미지02 입니다. <br>새로운 게시물을 감상해보세요.</p>
+                <p>2023-09-13</p>
+            <div class="wrap1"><a href=""><img src="img/heart.png" alt="하트"></a></div>              
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="wrap">
+                <img src="img/s03.jpg" alt="최신 이미지03">
+                <h3>최신 이미지 03</h3>
+                <p>최신 이미지03 입니다. <br>새로운 게시물을 감상해보세요.</p>
+                <p>2023-09-13</p>
+            <div class="wrap1"><a href=""><img src="img/heart.png" alt="좋아요"></a></div>             
+            </div>
+        </div>
+
+    </div>
+</section>
+    
+<section id="section3">
+    <div class="container">
+        <div class="box3">
+            <span>
+                <img src="img/s04.jpg" alt="이미지04">             
+            </span>
+            <span id="content1">
+                <h3>Title-Hello Text 001</h3>
+                <br>
+                <p>empty content. empty content. empty content.</p>
+            </span>
+            <button class="btn1"><a href="" onclick="alert('Click')">Button 001</a></button>
+        </div>
+    </div>
+</section>
+
+<section id="section4">
+    <div class="container">
+        <div class="box4">
+            <span>
+                <img src="img/s05.jpg" alt="이미지05">             
+            </span>
+            <span id="content2">
+                <h3>Title-Hello Text 002</h3>
+                <br>
+                <p>empty content. empty content. empty content.</p>
+            </span>
+            <button class="btn2"><a href="" onclick="alert('Click')">Button 002</a></button>
+        </div>
+    </div>
+</section>
+</main>
+
+  <!-- 푸터  -->
+  <footer class="footer">
+    <!-- 메뉴&서브메뉴 -->
+    <div class="container">
+     <ul class="mainmenu">
+      <li>
+        <a href="">Board</a>
+        <ul class="submenu">
+          <li><a href="">공지사항</a></li>
+          <li><a href="">자유게시판</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="">Gallery</a>
+        <ul class="submenu">
+          <li><a href="">갤러리01</a></li>
+          <li><a href="">갤러리02</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="">About</a>
+        <ul class="submenu">
+          <li><a href="">사이트 소개</a></li>
+        </ul>
+      </li>
+
+    <!-- 바로가기 -->
+   
+    <p class="family">
+      <select name="family">
+        <option value="1">네이버</option>
+        <option value="2">카카오</option>
+        <option value="3">유튜브</option>
+      </select>
+    </p>
+  </ul>
+
+    </div>
+
+
+
+    <!-- 카피라이트 -->
+    <p class="copy"> Copyright All right reserved. </p>
+  </footer>
+
+</body>
+</html>
